@@ -1,0 +1,54 @@
+#banner {
+  filter: brightness(0.5);
+  position: relative;
+  z-index: 0;
+}
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("assets/img/ba1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5em;
+}
+
+.textOn {
+  position: relative;
+  z-index: 1;
+  margin-top: 20em;
+  filter: brightness(1.5);
+}
+
+#theader {
+  font-size: 3rem;
+}
+#tbody {
+  font-size: 1.3rem;
+}
+
+#bannerbuttons {
+  position: absolute;
+  z-index: 2;
+}
+.react {
+  background-color: #16a3b8;
+}
+
+#textarea1 {
+  font-size: 1.5em;
+}
+#enviar {
+  background: #96c83f;
+  font-size: 1.5em;
+}
+footer {
+  background: rgb(28, 55, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 55, 66, 1) 0%,
+    rgba(31, 83, 112, 1) 100%
+  );
+}
+footer ul {
+  list-style-type: none;
+}
+
