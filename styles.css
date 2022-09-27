@@ -1,8 +1,3 @@
-#banner {
-  filter: brightness(0.5);
-  position: relative;
-  z-index: 0;
-}
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/img/ba1.jpg");
@@ -12,10 +7,7 @@
 }
 
 .textOn {
-  position: relative;
-  z-index: 1;
   margin-top: 20em;
-  filter: brightness(1.5);
 }
 
 #theader {
@@ -23,11 +15,6 @@
 }
 #tbody {
   font-size: 1.3rem;
-}
-
-#bannerbuttons {
-  position: absolute;
-  z-index: 2;
 }
 .react {
   background-color: #16a3b8;
@@ -39,7 +26,12 @@
 #enviar {
   background: #96c83f;
   font-size: 1.5em;
+  transition: 0.2s;
 }
+#enviar:hover{
+  background:#6f942f;
+}
+
 footer {
   background: rgb(28, 55, 66);
   background: linear-gradient(
@@ -51,4 +43,3 @@ footer {
 footer ul {
   list-style-type: none;
 }
-
