@@ -43,3 +43,15 @@ footer {
 footer ul {
   list-style-type: none;
 }
+
+@media screen and (max-width:767px){
+  #theader {
+    font-size: 2.25rem;
+  }
+  #tbody {
+    font-size: 0.975rem;
+  }
+  .bannerbut{
+    font-size: 0.75rem;
+  }
+}
