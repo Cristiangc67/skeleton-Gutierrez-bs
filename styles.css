@@ -55,3 +55,34 @@ footer ul {
     font-size: 0.75rem;
   }
 }
+
+/* *********tickets*********** */
+.persona{
+  border: 3px solid #86a9c6;
+  width: 17.5rem;
+}
+.descuento{
+  font-size: 1.5em;
+}
+#junior{
+  border: 3px solid #fec007;
+}
+#trainee{
+  border: 3px solid #4ab7c9;
+}
+#estudiante{
+  border: 3px solid #027cfe;
+}
+
+#borrar, #resume{
+  background-color: #97c93e;
+  border: 0;
+}
+#borrar:hover, #resume:hover{
+  background-color: #83af35;
+}
+#textopago{
+  border-radius: 0.3em;
+  background-color: #cde4ff;
+  border: 1px solid #b9dbfe;
+}
